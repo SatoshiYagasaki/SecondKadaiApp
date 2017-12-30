@@ -20,7 +20,7 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     
-        label.text = inputName
+        label.text = "こんにちは、\(inputName!)さん。"
     
     }
 
