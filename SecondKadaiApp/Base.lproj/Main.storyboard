@@ -67,6 +67,9 @@
                             <constraint firstItem="rDr-ik-dA0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yxh-5B-5YH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="7Ne-en-JJP" id="EeN-RI-A8c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,6 +119,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="UDk-2M-hDc" secondAttribute="trailing" constant="10" id="xjm-8x-D6b"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="UDk-2M-hDc" id="Air-k3-tLd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Na-kL-hBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="l6e-up-8fT" userLabel="Exit" sceneMemberID="exit"/>

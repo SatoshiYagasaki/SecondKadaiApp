@@ -10,10 +10,18 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    
+    @IBOutlet weak var label: UILabel!
+    var inputName: String?
+        // ラベルのアウトレットとテキスト保持のためのString型変数
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
+        label.text = inputName
+    
     }
 
     override func didReceiveMemoryWarning() {
