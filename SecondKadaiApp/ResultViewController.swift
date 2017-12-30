@@ -21,7 +21,7 @@ class ResultViewController: UIViewController {
         // Do any additional setup after loading the view.
     
         label.text = "こんにちは、\(inputName!)さん。"
-    
+        // 取得したテキストをラベルに代入-＞オプショナル型をアンラップするには、変数のあとに"!"をつける
     }
 
     override func didReceiveMemoryWarning() {

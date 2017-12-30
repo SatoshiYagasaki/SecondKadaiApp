@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var textField: UITextField!
-        // テキストフィールドのアウトレット
+        // テキストフィールドのアウトレット-＞テキストを取得
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
         resultViewController.inputName = textField.text
+        // 変数inputNameにtextFieldの値を代入
     }
     
     
